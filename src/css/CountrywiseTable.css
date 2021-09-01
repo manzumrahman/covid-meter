@@ -1,0 +1,33 @@
+tr:nth-child(even) {
+    background-color: rgb(255, 100, 100);
+    color: white;
+}
+table, th, td, tr{
+    border: 2px solid rgb(255, 80, 80);
+    border-collapse: collapse;
+}
+table{
+    width: 90%;
+    margin: auto;
+}
+th{
+    color: rgb(255, 80, 80);
+}
+td{
+    align-items: center;
+    justify-content: center;
+}
+.container-title{
+    display: inline;
+    color: rgb(255, 80, 80);
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight:600;
+    margin-bottom: 100px;
+  }
+  .container-title:hover{
+    border-bottom: 5px solid rgb(255, 80, 80);
+  }
+.space{
+    height: 30px;
+}
